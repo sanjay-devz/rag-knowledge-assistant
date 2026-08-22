@@ -1,1 +1,3 @@
-pypdf
+import -> pypdf
+from text_chunker import -> chunk_text
+import -> 

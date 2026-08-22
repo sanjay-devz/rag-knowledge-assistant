@@ -6,7 +6,6 @@ def chunk_text(text: str, chunk_size: int = 500, overlap: int = 50) -> list[str]
         raise ValueError("overlap must be between 0 and chunk_size - 1")
 
     chunks = []
-
     start = 0
 
     while start < len(text):
